@@ -78,15 +78,20 @@ input{
     font-size: 2em;
     color: gray;
 }
-
+footer{
+    background-color:rgb(30, 54, 69);
+}
 .bas {
     padding-top: 3%;
+   width: 80%;
     font-size: small;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+    margin: auto;
     color: aliceblue;
-    background-color:rgb(30, 54, 69);
+   
     min-height: 200px;
 }
 .Hébergement{
