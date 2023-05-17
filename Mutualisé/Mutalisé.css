@@ -16,18 +16,11 @@ nav{
     justify-content: space-between;
     margin: auto;
     align-items: center;
+    text-align: center;
+    font-size: x-large;
 }
 
-.logo,
-.mutualise,
-.dedie,
-.cloud,
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2%;
-}
+
 
 .logo{
     width: 100%;
@@ -81,9 +74,10 @@ input{
     border-left: dashed;
     border-right: dashed;
     border-color: grey;
-    margin: 1%;
-    padding: 1%;
+    margin: 3%;
+    padding: 3%;
     color: rgb(30, 54, 69);
+    border-spacing: 10%;
 }
 
 .TextServeur{
@@ -155,4 +149,11 @@ footer{
 }
 main{
     padding-bottom: 6%;
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        
 }

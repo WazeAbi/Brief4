@@ -15,21 +15,14 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin:auto
+    margin:auto;
+    text-align: center;
+    font-size: x-large;
 
    
 }
 
-.logo,
-.mutualise,
-.dedie,
-.cloud,
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2%;
-}
+
 
 .logo{
     width: 100%;
@@ -145,4 +138,12 @@ footer{
 
 iframe{
     width: 100%;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+   
 }

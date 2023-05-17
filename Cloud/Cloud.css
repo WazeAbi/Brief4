@@ -15,21 +15,14 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin:auto
+    margin:auto;
+    text-align: center;
+    font-size: x-large;
 
    
 }
 
-.logo,
-.mutualise,
-.dedie,
-.cloud,
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2%;
-}
+
 
 .logo{
     width: 100%;
@@ -144,13 +137,28 @@ h3{
     justify-content: center;
     font-size: 1em;
 }
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+   
+}
+footer{
+    background-color:rgb(30, 54, 69);
+}
 .bas {
     padding-top: 3%;
+   width: 80%;
     font-size: small;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+    margin: auto;
     color: aliceblue;
-    background-color:rgb(30, 54, 69);
+   
     min-height: 200px;
 }

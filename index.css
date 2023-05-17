@@ -18,23 +18,15 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin:auto
-
+    text-align: center;
+    font-size: x-large;
+    margin:auto;
    
 }
 
 
-.logo,
-.mutualise,
-.dedie,
-.cloud,
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2%;
-    
-}
+
+
 
 .logo{
     width: 100%;
@@ -116,7 +108,12 @@ footer{
     font-size: 2em;
 }
 main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
+    margin: auto;
+   
 }
 .Points{
     display: flex;
@@ -185,31 +182,26 @@ h3{
     justify-content: space-around;
     padding: 1%;
 }
-main{
-    margin: 5%;
-}
+
 h4{
     display: flex;
     justify-content: center;
     color: rgb(251, 138, 155);
 }
-
 @media   screen  and (max-width:960px) {
-    
-      
-    
     nav{
-     
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        justify-content:center;
-        align-items: center;
+
+
     }
+    .TriSolution{
+        display: flex;
+        flex-direction: column;
+    }
+    .TriHébergement{
+        display: flex;
+        flex-direction: column;
 
-
-    
-    
-
-    
+    }
 }
