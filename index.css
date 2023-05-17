@@ -17,28 +17,13 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
     align-items: center;
     margin:auto
-
-   
 }
 
 
-.logo,
-.mutualise,
-.dedie,
-.cloud,
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2%;
-    
-}
 
-.logo{
-    width: 100%;
-}
 
 
 .navImage{
@@ -195,21 +180,23 @@ h4{
 }
 
 @media   screen  and (max-width:960px) {
-    
-      
-    
     nav{
-     
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        justify-content:center;
-        align-items: center;
+
+
+    }
+
+    .TriSolution{
+        display: flex;
+        flex-direction: column;
     }
 
 
-    
-    
+    .TriHébergement{
+        display: flex;
+        flex-direction: column;
 
-    
+    }
 }
+
