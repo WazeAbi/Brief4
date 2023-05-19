@@ -9,6 +9,9 @@ a{
     color:rgb(30, 54, 69);
 }
 
+
+
+
 nav{
     width: 80%;
     display: flex;
@@ -17,19 +20,9 @@ nav{
     align-items: center;
     margin:auto;
     text-align: center;
-    font-size: x-large;
-
-   
-}
-
-
-
-.logo{
-    width: 100%;
-}
-
-.contact{
-    padding-right: 5%;
+    font-size: x-large; 
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 .navImage{
@@ -79,10 +72,8 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
     margin: auto;
     color: aliceblue;
-   
     min-height: 200px;
 }
 .contact1{
@@ -101,17 +92,15 @@ footer{
 
 .contactezNous{
     display :flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: 3%;
 }
 
-.logoContact{
+.lesContact{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-   
+    justify-content: space-between;
 }
-
 .avion,
 .telephone,
 .enveloppe{
@@ -123,7 +112,7 @@ footer{
     border-color: grey;
 }
 
-.numéroContact{
+.numÃ©roContact{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -140,10 +129,36 @@ iframe{
     width: 100%;
 }
 main{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-   
+width: 80%;
+justify-content: center;
+align-items: center; 
+margin: auto;
+text-align: center;
+}
+
+@media   screen  and (max-width:960px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .contactezNous{
+        display :flex;
+        flex-direction: column;
+        margin: 3%;
+    }
+
+    .lesContact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
 }

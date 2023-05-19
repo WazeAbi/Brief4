@@ -18,6 +18,8 @@ nav{
     margin:auto;
     text-align: center;
     font-size: x-large;
+    padding-bottom: 1%;
+    padding-top: 1%;
 
    
 }
@@ -161,4 +163,23 @@ footer{
     color: aliceblue;
    
     min-height: 200px;
+}
+@media   screen  and (max-width:960px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .ServiceServeur{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
 }
